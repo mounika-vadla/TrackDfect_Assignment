@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63765" started-at="2020-10-27T19:18:31 IST" finished-at="2020-10-27T19:19:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63765" started-at="2020-10-27T19:18:31 IST" finished-at="2020-10-27T19:19:35 IST">
+      <class name="TrackDfect_Assignment.Amazon.Productsearch">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TrackDfect_Assignment.Amazon.Productsearch@64729b1e]" name="setUp" is-config="true" duration-ms="16714" started-at="2020-10-27T19:18:31 IST" finished-at="2020-10-27T19:18:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectItem()[pri:1, instance:TrackDfect_Assignment.Amazon.Productsearch@64729b1e]" name="selectItem" duration-ms="17551" started-at="2020-10-27T19:18:48 IST" finished-at="2020-10-27T19:19:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+        <test-method status="PASS" signature="addItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TrackDfect_Assignment.Amazon.Productsearch@64729b1e]" name="addItem" duration-ms="28458" started-at="2020-10-27T19:19:06 IST" data-provider="getdata" depends-on-methods="TrackDfect_Assignment.Amazon.Productsearch.selectItem" finished-at="2020-10-27T19:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mounikalakshmi.vadla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Student@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mounika]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7057157155]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[562107]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A209,Celebrity Square]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Biddaraguppa]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sarjapura]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TrackDfect_Assignment.Amazon.Productsearch@64729b1e]" name="teardown" is-config="true" duration-ms="661" started-at="2020-10-27T19:19:35 IST" finished-at="2020-10-27T19:19:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TrackDfect_Assignment.Amazon.Productsearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
